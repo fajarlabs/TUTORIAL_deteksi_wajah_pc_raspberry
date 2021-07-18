@@ -14,6 +14,7 @@ sudo apt install libatlas-base-dev liblapacke-dev gfortran
 sudo apt install libhdf5-dev libhdf5-103
 sudo apt install python3-dev python3-pip python3-numpy
 ``````
+<br />
 Jika instalasi gagal atau paket repository tidak lengkap atau tidak mendukung seperti libgtk,libtif dll gunakan cara kedua : <br />
 <b>Alternatif install OPENCV</b><br />
 instalasi ini bisa jadi akan memakan waktu yang cukup lama. <br />
@@ -26,7 +27,7 @@ Jika menginstall opencv lewat script silahkan ikuti tahapan dibawah ini : <br />
 sudo nano /etc/dphys-swapfile<br />
 Ubah <b>CONF_SWAPSIZE=100 </b> menjadi <b>CONF_SWAPSIZE=2048 </b><br />
 Restart swabfile <b>sudo systemctl restart dphys-swapfile</b><br />
-<br/>
+
 <b>Cloning source code opencv</b><br />
 git clone https://github.com/opencv/opencv.git<br />
 git clone https://github.com/opencv/opencv_contrib.git<br /><br />

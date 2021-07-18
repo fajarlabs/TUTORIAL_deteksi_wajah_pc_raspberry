@@ -39,7 +39,7 @@ sudo ldconfig <br />
 Setelah proses diatas selesai kembalikan swabfile seperti semula : <br />
 sudo nano /etc/dphys-swapfile (ubah 2048 menjadi 100) nilai dari CONF_SWAPSIZE <br />
 <br />
-<b> Restart SwabFile service <br />
+<b> Restart SwabFile service </b> <br />
 sudo systemctl restart dphys-swapfile <br />
 <br />
 

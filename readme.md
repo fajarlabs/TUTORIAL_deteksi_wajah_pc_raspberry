@@ -77,18 +77,28 @@ cd ..
 python setup.py install --set USE_AVX_INSTRUCTIONS=1 --set DLIB_USE_CUDA=1 --no DLIB_GIF_SUPPORT 
 ``````
 
-referensi install opencv : https://yunusmuhammad007.medium.com/2-raspberry-pi-install-opencv-pada-python-3-7-menggunakan-pip3-a2504dffd984
-problem gtk2.0 dependency : https://programmersought.com/article/57453207651/
-
 Mulai cloning programnya disini : <b> git clone https://github.com/fajarlabs/absensi_wajah.git </b> <br />
 Jalankan file <b>python test_camera_basic.py</b> untuk memeriksa apakah sudah bisa dijalankan OPENCVnya. <br />
+
+# How to capture model photo
 Jika sudah ok selanjutnya silahkan buat folder nama didalam folder "DATASET", didalam folder nama tersebut akan di isi foto wajah untuk ditraining. <br />
 <a href="https://ibb.co/09sLjHm"><img src="https://i.ibb.co/6tXSRjr/dataset-1.jpg" alt="dataset-1" border="0"></a><br />
 Untuk melakukan pengisian dataset foto silahkan edit skrip <b>ambil_foto_wajah.py</b> di line 3 sesuaikan dengan lokasi nama folder foto didalam folder "DATASET".<br /> 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/yYTn6bk/sesi-ambil-foto.jpg" alt="sesi-ambil-foto" border="0"></a> <br />
 Jalankan <b>python ambil_foto_wajah.py</b> untuk melakukan sesi pengambilkan dan tekan <b>SPACE</b> untuk capture dan tekan <b>ESC</b> untuk keluar program. <br />
 
-Selanjutnya jika DATASET foto sudah OK selanjutnya melakukan training model dengan menjalankan skript <b>python train_model.py</b> dan menghasilkan file "encodings.pickel" 
-Selanjutkan untuk menjalankan deteksi wajah silahkan jalankan skrip <b>python deteksi_wajah.py</b>
+# How to train
+Selanjutnya jika DATASET foto sudah OK selanjutnya melakukan training model dengan menjalankan skrip <b>python train_model.py</b> dan menghasilkan file "encodings.pickel" 
+
+# How to detection
+Selanjutkan untuk menjalankan deteksi wajah silahkan jalankan skrip <br />
+``````
+python deteksi_wajah.py
+``````
+<br />
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/M1sKvQ3/Capture.jpg" alt="Capture" border="0"></a>
 
+# Literature
+https://yunusmuhammad007.medium.com/2-raspberry-pi-install-opencv-pada-python-3-7-menggunakan-pip3-a2504dffd984 <br />
+https://programmersought.com/article/57453207651/ <br />
+https://www.tomshardware.com/how-to/raspberry-pi-facial-recognition <br />

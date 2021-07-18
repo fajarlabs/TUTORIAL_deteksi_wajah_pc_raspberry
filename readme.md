@@ -1,6 +1,6 @@
 # Face Detection
 Cara mudah membuat pendeteksi wajah (tanpa fitur anti spoofing)<br />
--![Sample Gif](https://i.ibb.co/2YmgX0X/ezgif-com-gif-maker.gif)
+![Demo File](https://github.com/fajarlabs/demo.gif)
 
 # How To Install
 

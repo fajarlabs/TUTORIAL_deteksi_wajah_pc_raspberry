@@ -61,4 +61,5 @@ $ python setup.py install --set USE_AVX_INSTRUCTIONS=1 --set DLIB_USE_CUDA=1 --n
 referensi install opencv : https://yunusmuhammad007.medium.com/2-raspberry-pi-install-opencv-pada-python-3-7-menggunakan-pip3-a2504dffd984
 problem gtk2.0 dependency : https://programmersought.com/article/57453207651/
 
-Mulai cloning programnya disini : <b> git clone 
+Mulai cloning programnya disini : <b> git clone  https://github.com/fajarlabs/absensi_wajah.git </b><br />
+

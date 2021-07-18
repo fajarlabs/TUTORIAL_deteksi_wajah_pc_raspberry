@@ -1,6 +1,6 @@
 import cv2
 
-name = 'Ipay' #replace with your name
+name = 'FOLDER_NAMA' # ganti dengan nama anda
 
 cam = cv2.VideoCapture(0)
 

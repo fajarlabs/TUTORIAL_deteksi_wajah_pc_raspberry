@@ -1,6 +1,6 @@
 # Face Detection
 Cara mudah membuat pendeteksi wajah (tanpa fitur anti spoofing)<br />
-![Demo File](https://github.com/fajarlabs/demo.gif)
+![Demo File](https://github.com/fajarlabs/absensi_wajah/blob/master/demo.gif)
 
 # How To Install
 

@@ -19,17 +19,18 @@ Restart swabfile <b>sudo systemctl restart dphys-swapfile</b><br />
 git clone https://github.com/opencv/opencv.git<br />
 git clone https://github.com/opencv/opencv_contrib.git<br /><br />
 
-cmake -D CMAKE_BUILD_TYPE=RELEASE \<br />
--D CMAKE_INSTALL_PREFIX=/usr/local \<br />
--D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \<br />
--D ENABLE_NEON=ON \<br />
--D ENABLE_VFPV3=ON \<br />
--D BUILD_TESTS=OFF \<br />
--D INSTALL_PYTHON_EXAMPLES=OFF \<br />	
--D OPENCV_ENABLE_NONFREE=ON \<br />
--D CMAKE_SHARED_LINKER_FLAGS=-latomic \<br />
--D BUILD_EXAMPLES=OFF ..<br />
-
+``````
+cmake -D CMAKE_BUILD_TYPE=RELEASE \
+-D CMAKE_INSTALL_PREFIX=/usr/local \
+-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
+-D ENABLE_NEON=ON \
+-D ENABLE_VFPV3=ON \
+-D BUILD_TESTS=OFF \
+-D INSTALL_PYTHON_EXAMPLES=OFF \
+-D OPENCV_ENABLE_NONFREE=ON \
+-D CMAKE_SHARED_LINKER_FLAGS=-latomic \
+-D BUILD_EXAMPLES=OFF ..
+``````
 <br />
 make -j$(nproc) (proses ini memakan waktu 1 jam lebih )<br />
 sudo make install <br />

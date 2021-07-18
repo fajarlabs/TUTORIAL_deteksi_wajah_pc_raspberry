@@ -50,14 +50,17 @@ Install library imutils:<br />
 pip install imutils<br />
 <br />
 Jika ada permasalahan ada pada dlib install by source code seperti langkah-langkah di bawah ini : <br />
-$ git clone https://github.com/davisking/dlib.git <br />
-$ cd dlib<br />
-$ mkdir build<br />
-$ cd build <br />
-$ cmake .. -DDLIB_USE_CUDA=1 -DUSE_AVX_INSTRUCTIONS=1<br />
-$ cmake --build .<br />
-$ cd ..<br />
-$ python setup.py install --set USE_AVX_INSTRUCTIONS=1 --set DLIB_USE_CUDA=1 --no DLIB_GIF_SUPPORT <Br />
+
+``````
+git clone https://github.com/davisking/dlib.git
+cd dlib
+mkdir build
+cd build
+cmake .. -DDLIB_USE_CUDA=1 -DUSE_AVX_INSTRUCTIONS=1
+cmake --build .
+cd ..
+python setup.py install --set USE_AVX_INSTRUCTIONS=1 --set DLIB_USE_CUDA=1 --no DLIB_GIF_SUPPORT <Br />
+``````
 
 referensi install opencv : https://yunusmuhammad007.medium.com/2-raspberry-pi-install-opencv-pada-python-3-7-menggunakan-pip3-a2504dffd984
 problem gtk2.0 dependency : https://programmersought.com/article/57453207651/

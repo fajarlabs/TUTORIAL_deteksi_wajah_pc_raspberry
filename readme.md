@@ -10,7 +10,7 @@ sudo apt install python3-dev python3-pip python3-numpy <br />
 <b>Alternatif install OPENCV</b><br />
 sudo pip install opencv-contrib-python<br />
 
-<b> Alternatif instalasi tanpa pip opencv-contrib-python<b/><br />
+<b> Alternatif instalasi tanpa pip opencv-contrib-python</b><br />
 sudo nano /etc/dphys-swapfile<br />
 Ubah <b>CONF_SWAPSIZE=100 </b> menjadi <b>CONF_SWAPSIZE=2048 </b><br />
 Restart swabfile <b>sudo systemctl restart dphys-swapfile</b><br />

@@ -1,3 +1,7 @@
+# Face Detection
+Cara mudah membuat pendeteksi wajah (tanpa fitur anti spoofing)
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/2YmgX0X/ezgif-com-gif-maker.gif" alt="ezgif-com-gif-maker" border="0"></a>
+
 # How To Install
 
 Library yang harus di install di raspberry PI seperti dibawah ini : <br />

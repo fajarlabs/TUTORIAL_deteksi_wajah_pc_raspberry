@@ -37,12 +37,15 @@ sudo apt install python3-dev python3-pip python3-numpy
 ``````
 <br />
 <h2>PERHATIAN!!!</h2>
+
 Jika instalasi pakaet ada yang gagal atau paket repository tidak lengkap atau tidak mendukung seperti libgtk,libtif dll gunakan cara kedua : <br />
 <b>Alternatif install OPENCV</b><br />
 instalasi ini bisa jadi akan memakan waktu yang cukup lama. <br />
+
 ``````
 sudo pip install opencv-contrib-python
 ``````
+
 <br />
 Jika menginstall opencv lewat script silahkan ikuti tahapan dibawah ini : <br />
 

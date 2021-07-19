@@ -4,6 +4,7 @@ Cara mudah membuat pendeteksi wajah (tanpa fitur anti spoofing)<br />
 
 # How To Install
 Saya menggunakan RaspberryPi3 untuk instalasi menggunakan cara dibawah ini :<br />
+
 ``````
 sudo apt install cmake build-essential pkg-config git
 sudo apt install python3-opencv
@@ -12,12 +13,15 @@ sudo apt install ffmpeg python3-opencv
 sudo apt install libxcb-shm0 libcdio-paranoia-dev libsdl2-2.0-0 libxv1  libtheora0 libva-drm2 libva-x11-2 libvdpau1 libharfbuzz0b libbluray2 libatlas-base-dev libhdf5-103 libgtk-3-0 libdc1394-22 libopenexr23
 sudo apt install python3-dev python3-pip python3-numpy
 ``````
+
 <br />
 Didalam praktek ini menggunakan python versi 3.7.3 <br />
 Selanjutnya install paket library python seperti dibawah ini : <br />
+
 ``````
 pip3 install -r requirements.txt
 ``````
+
 Untuk instalasi <b>opencv-contrib-python</b> akan memakan waktu lebih lama, jadi ketika instalasi biarkan beberapa jam, mungkin berbeda pada versi raspbery4 keatas. <br />
 Jika masih terjadi kendala, dimungkinkan ada kendala library yang kurang, dibawah ini : <br />
 

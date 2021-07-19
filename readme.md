@@ -36,7 +36,8 @@ sudo apt install libhdf5-dev libhdf5-103
 sudo apt install python3-dev python3-pip python3-numpy
 ``````
 <br />
-Jika instalasi gagal atau paket repository tidak lengkap atau tidak mendukung seperti libgtk,libtif dll gunakan cara kedua : <br />
+<h2>PERHATIAN!!!</h2>
+Jika instalasi pakaet ada yang gagal atau paket repository tidak lengkap atau tidak mendukung seperti libgtk,libtif dll gunakan cara kedua : <br />
 <b>Alternatif install OPENCV</b><br />
 instalasi ini bisa jadi akan memakan waktu yang cukup lama. <br />
 ``````

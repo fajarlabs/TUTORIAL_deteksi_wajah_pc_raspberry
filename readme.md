@@ -16,7 +16,7 @@ sudo apt install python3-dev python3-pip python3-numpy
 
 <br />
 Didalam praktek ini menggunakan python versi 3.7.3 <br />
-Selanjutnya install paket library python seperti dibawah ini : <br />
+Selanjutnya <i>install</i> paket <i>library</i> python seperti dibawah ini : <br />
 
 ``````
 pip3 install -r requirements.txt

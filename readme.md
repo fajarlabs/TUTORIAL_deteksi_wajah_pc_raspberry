@@ -85,6 +85,8 @@ pip install imutils
 <br />
 Jika ada permasalahan instalasi dlib lewat PIP, alternatif lainnya install lewat source code seperti langkah-langkah di bawah ini : <br />
 
+<h2>HOW TO INSTALL DLIB (USING GPU)</h2>
+
 Cara dibawah ini di instruksikan agar DLIB menggunakan GPU, jika tidak ada GPU dan hanya menggunakan CPU gunakan cara instalasi biasa<br />
 
 ``````

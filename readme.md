@@ -3,6 +3,27 @@ Cara mudah membuat pendeteksi wajah (tanpa fitur anti spoofing)<br />
 ![Demo File](https://github.com/fajarlabs/absensi_wajah/blob/master/demo.gif)
 
 # How To Install
+Saya menggunakan RaspberryPi3 untuk instalasi menggunakan cara dibawah ini :<br />
+
+``````
+sudo apt install cmake build-essential pkg-config git
+sudo apt install python3-opencv
+sudo apt-get install raspberrypi-ui-mods
+sudo apt install ffmpeg python3-opencv
+sudo apt install libxcb-shm0 libcdio-paranoia-dev libsdl2-2.0-0 libxv1  libtheora0 libva-drm2 libva-x11-2 libvdpau1 libharfbuzz0b libbluray2 libatlas-base-dev libhdf5-103 libgtk-3-0 libdc1394-22 libopenexr23
+sudo apt install python3-dev python3-pip python3-numpy
+``````
+
+<br />
+Didalam praktek ini menggunakan python versi 3.7.3 <br />
+Selanjutnya <i>install</i> paket <i>library</i> python seperti dibawah ini : <br />
+
+``````
+pip3 install -r requirements.txt
+``````
+
+Untuk instalasi <b>opencv-contrib-python</b> akan memakan waktu lebih lama, jadi ketika instalasi biarkan beberapa jam, mungkin berbeda pada versi raspbery4 keatas. <br />
+Jika masih terjadi kendala, dimungkinkan ada kendala library yang kurang, dibawah ini : <br />
 
 Library yang harus di install di raspberry PI seperti dibawah ini : <br />
 ``````
@@ -15,13 +36,12 @@ sudo apt install libhdf5-dev libhdf5-103
 sudo apt install python3-dev python3-pip python3-numpy
 ``````
 <br />
-Jika instalasi gagal atau paket repository tidak lengkap atau tidak mendukung seperti libgtk,libtif dll gunakan cara kedua : <br />
-<b>Alternatif install OPENCV</b><br />
-instalasi ini bisa jadi akan memakan waktu yang cukup lama. <br />
-``````
-sudo pip install opencv-contrib-python
-``````
+<h2>ATTENTION!!!</h2>
+
+Jika instalasi paket ada yang gagal atau paket repository tidak lengkap atau tidak mendukung seperti libgtk,libtif dll gunakan cara kedua : <br />
+
 <br />
+<h2>HOW TO INSTALL OPENCV</h2>
 Jika menginstall opencv lewat script silahkan ikuti tahapan dibawah ini : <br />
 
 sudo nano /etc/dphys-swapfile<br />
@@ -64,6 +84,8 @@ pip install imutils
 ``````
 <br />
 Jika ada permasalahan instalasi dlib lewat PIP, alternatif lainnya install lewat source code seperti langkah-langkah di bawah ini : <br />
+
+<h2>HOW TO INSTALL DLIB (USING GPU)</h2>
 
 Cara dibawah ini di instruksikan agar DLIB menggunakan GPU, jika tidak ada GPU dan hanya menggunakan CPU gunakan cara instalasi biasa<br />
 

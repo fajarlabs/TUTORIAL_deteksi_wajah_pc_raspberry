@@ -1,0 +1,23 @@
+
+# cara capture foto sebelum melakukan training data, ketikan perintah dibawah ini :
+
+```
+python .\ambil_foto_wajah.py --folder_name=fajar --camera=1
+```
+
+--folder_name=[isikan nama dari foto yang akan di simpan]
+--camera=[isikan dengan device id kamera, index dimulai dari 0, 1, 2, 3 dan seterusnya.
+
+Jika dipastikan foto tersebut sudah di simpan, selanjutnya jalankan perintah :
+
+```
+python .\train_model.py
+```
+
+lalu akan menghasilkan file dengan nama encodings.pickle, salin file ini dan pindahkan ke folder utama atau satu folder dengan file GUI_Attendance.py
+
+Selanjutkan coba dengan menjalankan perintah :
+
+```
+python .\GUI_Attendance.py
+```

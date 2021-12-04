@@ -167,7 +167,7 @@
      <rect>
       <x>2</x>
       <y>290</y>
-      <width>71</width>
+      <width>161</width>
       <height>16</height>
      </rect>
     </property>
@@ -181,7 +181,7 @@
      <string notr="true">QLabel{color:white}</string>
     </property>
     <property name="text">
-     <string>AGENDA</string>
+     <string>Agenda anda hari ini :</string>
     </property>
    </widget>
   </widget>
